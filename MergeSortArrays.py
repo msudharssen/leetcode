@@ -1,3 +1,14 @@
+"""
+1. Original Function, split the array up into two halves. 
+ - Base case: If length is <= 1, return the array.
+ - Recursive case: Split the array into left and right halves, recursively call mergeKLists on each half. 
+ - Merge the two sorted halves using the merge function.
+2. Merge Function:
+ - Create an output array of size equal to the sum of lengths of left and right arrays.
+ - Use three pointers: writePointer for output array, leftPointer for left array, rightPointer for right array.
+"""
+
+
 class Solution:
     def __init__(self):
         pass
